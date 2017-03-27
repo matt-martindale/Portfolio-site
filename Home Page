@@ -1,0 +1,42 @@
+<!doctype html>
+
+<head>
+<title>Matt.Martindale</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div id="sidenav">
+<a href="#"><img id="logo" src="../Images/Matt_logo.png" width="200px" alt="Matt Logo"></a>
+		<ul id="nav">
+		<div class="dropdown">	
+			<li class="topmenu"><a href="../Monstro Co/monstro.html">Monstro Co. </a></li>
+		<div class="content">	
+			<li><a href="#">- Products </a></li>
+			<li><a href="#">- Kickstarter </a></li>
+		</div>
+		</div>	
+		<div class="dropdown">
+			<li class="topmenu"><a href="#">Portfolio </a></li>
+		<div class="content">		
+			<li><a href="#">- Graphic Design </a></li>
+			<li><a href="#">- Illustrations </a></li>
+		</div>
+		</div>		
+			<li class="topmenu" id="contact">
+<a href="#">Contact </a></li>
+		</ul>
+	</div>
+	
+<div id="bg">
+
+<div id="container"></div>
+<div id="text">
+<h1 id="title">Web Designer / Student</h1>
+
+<h3 id="motto">Why stop now,<br>when there is still so<br>much to learn?</h3>
+</div>
+</div>
+</body>
+
+</html>
