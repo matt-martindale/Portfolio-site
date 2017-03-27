@@ -1,0 +1,218 @@
+@font-face{
+	font-family: manifold;
+	src: url(../Fonts/manifold.otf);
+}
+
+body{
+	background-color: #eee;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0;
+	padding: 0;
+}
+
+#side{
+	float: left;
+	width: 370px;
+	height: 5000px;
+}
+
+
+
+#sidenav{
+	position: fixed;
+	width: 250px;
+	height: 100vh;
+	float: left;
+	background: #fff;
+}
+
+#contact a{
+	color: #B9994E;
+}
+
+#contact a:hover{
+	color: #FDE07A;
+}
+
+#contact a:active{
+	color: #B9994E;
+}
+
+#logo{
+	margin: 0 25px;
+	width: 200px;
+}
+
+#bg{
+	width: 100%;
+	height: 100vh;
+}
+
+ul li{
+	list-style-type: none;
+	padding: 0 0 10px 25px;
+	font-family: manifold;
+}
+
+ul li a{
+	text-decoration: none;
+	transition: font-size 150ms;
+	display: ;
+}
+
+.topmenu{
+	font-size: 1.8em;
+}
+
+ul li a:link{
+	color: black;
+}
+
+ul li a:visited{
+	color: black;
+}
+
+ul li a:hover{
+	color: #B9994E;
+	font-size: 1.1em;
+}
+
+ul li a:active{
+	color: #FDE07A;
+}
+
+ul li:hover ::after{
+	content: url(../Images/hover.jpg);
+}
+
+#active a{
+	color: #B9994E;
+}
+
+
+
+.gallery img{
+	width:100%;
+	height: auto;
+}
+
+.description{
+	padding: 10px;
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.responsive{
+	margin: 100px 3% 30px;
+	padding: 0 6px;
+	float: left;
+	width: 28.3%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    
+
+#sidenav{
+	position: static;
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+}
+
+#side{
+	display: none;
+}
+
+#head_img{
+	width: 50%;
+	height: auto;
+	padding-top: 30px;
+}
+
+h1{
+	font-size: 2em;
+	margin-bottom: -10px;
+}
+
+#intro{
+	padding: 0 100px;
+}
+
+
+ul li {
+	display: inline-block;
+}
+
+.topmenu{
+	padding-top: 40px;
+}
+
+#logo{
+	width: 150px;
+	float: left;
+}
+
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.content{
+	padding: 10px;
+	display: none;
+	position: absolute;
+	background: #fff;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .content{
+	display: block;
+}
+
+.content a{
+	display: block;
+	font-size: 1.1em;
+}
+
+#nav{
+	float: right;
+	margin-right: 10%;
+}
+
+#contact:hover{
+	text-shadow: 1px 1px 3px #bbb;
+	font-size: 2em;
+}
+
+ul li a{
+	text-decoration: none;
+	transition: font-size 150ms;
+}
+
+ul li a:hover{
+	color: #B9994E;
+	font-size: 1em;
+}
+
+.content a:hover{
+	font-size: 1.1em;
+}
+
+ul li a:active{
+	color: #FDE07A;
+}
+
+ul li:hover ::after{
+	content: none;
+}
+
+}
