@@ -26,12 +26,20 @@ body{
 	padding-top: 40px;
 }
 
-h1{
-	font-family: Bungee, cursive;
+h3{
+	position: relative;
+	left: 100px;
+	width: 60%;
+	margin: auto;
+	margin-top: 80px;
+	font-family: cabin;
 	text-align: center;
-	font-size: 3em;
-	margin: 10px 0 -25px 0;
-	word-spacing: 10px;
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+
+span{
+	font-size: 1.5em;
 }
 
 h4{
@@ -40,47 +48,7 @@ h4{
 	margin-right: 20%;
 }
 
-p{
-	font-family: manifold;
-	line-height: 2;
-}
 
-
-h3{
-	font-family: manifold;
-	margin: -25px 20% 0 32%;
-	text-align: center;
-	font-size: 1.2em;
-	line-height: 1.5;
-}
-
-#dualis{
-	max-width: 60%;
-	height: auto;
-	margin: 60px;
-	margin-top: 10px;
-	float: left;
-}
-
-#dualis_text{
-	margin: 50px 30px 0 0;
-	fot-size: 1.1em;
-}
-
-#dualis-contain{
-	height: 300px;
-}
-
-#traveler-contain{
-	height: 300px;
-}
-
-#traveler{
-	margin-right: 50px;
-	float: right;
-	max-width: 60%;
-	height: auto;
-}
 
 #sidenav{
 	position: fixed;
@@ -255,4 +223,5 @@ ul li:hover ::after{
 }
 
 }
+
 
