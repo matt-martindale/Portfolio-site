@@ -1,0 +1,201 @@
+@font-face{
+	font-family: manifold;
+	src: url(../Fonts/manifold.otf);
+}
+
+body{
+	background: url('../Images/octopus.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0;
+	padding: 0;
+	animation-name: octopus;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes octopus{
+	0% {background-size: 90%;}
+	100% {background-size: 115%;}
+}
+
+#sidenav{
+	width: 250px;
+	height: 100vh;
+	float: left;
+	background: #fff;
+}
+
+#contact a{
+	color: #f51919;
+}
+
+#logo{
+	margin: 0 25px;
+	width: 200px;
+}
+
+#bg{
+	width: 100%;
+	height: 100vh;
+	background: rgba(30,30,30,0.1);
+}
+
+#container{
+	width: 100%;
+	height: 400px;
+}
+
+#text{
+	float: right;
+	margin-right: 15%;
+	max-width: 100%;
+}
+
+#title{
+	text-align: center;
+	font-family: manifold;
+	font-size: 4em;
+	background: -webkit-linear-gradient(30deg, #f51919, #ff6d00);
+
+  	-webkit-background-clip: text;
+  	
+	-webkit-text-fill-color: transparent;
+ 
+ 	text-transform: uppercase;
+
+}
+
+#motto{
+	text-align: right;
+	font-family: manifold;
+	font-size: 2em;
+}
+
+ul li{
+	list-style-type: none;
+	padding: 0 0 10px 25px;
+	font-family: manifold;
+}
+
+ul li a{
+	text-decoration: none;
+	transition: font-size 150ms;
+	display: ;
+}
+
+.topmenu{
+	font-size: 1.8em;
+}
+
+ul li a:link{
+	color: black;
+}
+
+ul li a:visited{
+	color: black;
+}
+
+ul li a:hover{
+	color: #f51919;
+	font-size: 1.1em;
+}
+
+ul li a:active{
+	color: #ff6d00;
+}
+
+ul li:hover ::after{
+	content: url(../Images/hover.jpg);
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    
+
+#sidenav{
+	width: 100%;
+	height: 150px;
+	display: inline-block;
+}
+
+ul li {
+	display: inline-block;
+}
+
+.topmenu{
+	padding-top: 40px;
+}
+
+#logo{
+	width: 150px;
+	float: left;
+}
+
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.content{
+	padding: 10px;
+	display: none;
+	position: absolute;
+	background: #fff;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown:hover .content{
+	display: block;
+}
+
+.content a{
+	display: block;
+	font-size: 1.1em;
+}
+
+#nav{
+	float: right;
+	margin-right: 10%;
+}
+
+#contact:hover{
+	text-shadow: 1px 1px 3px #bbb;
+	font-size: 2em;
+}
+
+ul li a{
+	text-decoration: none;
+	transition: font-size 150ms;
+}
+
+ul li a:hover{
+	color: #f51919;
+	font-size: 1em;
+}
+
+.content a:hover{
+	font-size: 1.1em;
+}
+
+ul li a:active{
+	color: #ff6d00;
+}
+
+ul li:hover ::after{
+	content: none;
+}
+
+#container{
+	height: 300px;
+}
+
+}
