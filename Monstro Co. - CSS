@@ -34,12 +34,12 @@ h3{
 	margin-top: 80px;
 	font-family: cabin;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1.5;
 }
 
 span{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 h4{
