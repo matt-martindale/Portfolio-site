@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-hello
+
 	<div id="sidenav">
 <a href="#"><img id="logo" src="../Images/Matt_logo.png" width="200px" alt="Matt Logo"></a>
 		<ul id="nav">
