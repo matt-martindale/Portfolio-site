@@ -1,0 +1,60 @@
+<!doctype HTML>
+<head>
+<title>Monstro Co.</title>
+<link rel="stylesheet" href="monstyle.css">
+<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+</head>
+<body>
+
+<div id="sidenav">
+<a href="../Home Page/Home.html">
+<img id="logo" src="../Images/Matt_logo.png" width="200px" alt="Matt Logo"></a>
+
+		<ul id="nav">
+		<div class="dropdown">	
+<li id="active" class="topmenu"><a href="../Monstro Co/monstro.html">Monstro Co. </a></li>
+<div class="content">	
+		<li><a href="#">- Products </a></li>
+		<li><a href="#">- Kickstarter </a></li>
+	
+		</div>
+		</div>	
+		<div class="dropdown">
+			<li class="topmenu"><a href="#">Portfolio </a></li>
+<div class="content">		
+			<li><a href="#">- Graphic Design </a></li>
+      <li><a href="#">- Illustrations </a></li>
+    </div>
+		</div>		
+			<li class="topmenu" id="contact">
+<a href="#">Contact </a></li>
+  </ul>
+  </div>
+	
+<div id="side"></div>
+
+<img id="head_img" src="../Images/monstro_co.jpg" alt="Monstro Co." width="630px" height="300px">
+
+<h1>Monstro Co.</h1>
+<h3>Started in 2016, Monstro Co. is a way to create lifestyle products 
+that can be personalized with Morse code.</h3>
+<p id="intro">First I began with a poster design that people could choose 40 characters to send 
+a message in Morse code. Then I designed a twin-layer Men's bracelet called the "Dualis". People 
+could choose 2 letters or numbers with which to customize their bracelets. </p>
+
+<hr>
+
+<div id="dualis-contain">
+<img id="dualis" src="../Images/dualis.jpg" alt="Dualis - Men's bracelet" width="500px" height="500px">
+
+<p id="dualis_text">With our Men's dual-layer bracelet you can customize it with 2 letters
+ or numbers to symbolize anything you think, whatever meaning they have to you;  a loved 
+ones initials, special saying, your secret superhero name, whatever!</p>
+</div>
+
+<div id="traveler-contain">
+<img id="traveler" src="../Images/the traveler.jpg" alt="The Traveler - Women's bracelet" width="500px" height="250px">
+
+</div>
+</body>
+</html>
