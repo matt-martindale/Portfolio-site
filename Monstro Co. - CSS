@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #eee;
+	background-color: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -19,8 +19,7 @@ body{
 }
 
 #profile{
-	margin-left: -10px;
-	margin-top: 60px;
+	margin: 117px 0 0 -15px;
 }
 
 #head_img{
@@ -68,7 +67,7 @@ h4{
 	width: 250px;
 	height: 100vh;
 	float: left;
-	background: #fff;
+	background: #eee;
 }
 
 #contact a{
@@ -127,7 +126,7 @@ ul li a:active{
 }
 
 ul li:hover ::after{
-	content: url(../Images/hover.jpg);
+	content: url(../Images/hover.png);
 }
 
 #active a{
@@ -236,5 +235,4 @@ ul li:hover ::after{
 }
 
 }
-
 
