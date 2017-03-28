@@ -4,7 +4,7 @@
 }
 
 body{
-	background-color: #eee;
+	background-color: #fff;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -25,7 +25,7 @@ body{
 	width: 250px;
 	height: 100vh;
 	float: left;
-	background: #fff;
+	background: #eee;
 }
 
 #contact a{
@@ -38,6 +38,10 @@ body{
 
 #contact a:active{
 	color: #B9994E;
+}
+
+#profile{
+	margin: 117px 0 0 -15px;
 }
 
 #logo{
@@ -99,8 +103,30 @@ ul li:hover ::after{
 }
 
 .description{
+	font-family: "alfa slab one";
 	padding: 10px;
 	text-align: center;
+}
+
+p{
+	font-family: "poiret one";
+	font-size: 2em;
+	font-weight: bolde;
+	margin: 0;
+	padding: 0 0 10px 0;
+}
+
+.description a:link{
+	text-decoration: none;
+	color: #000;
+}
+
+.description a:hover{
+	color: #999;
+}
+
+.description a:visited{
+	color: #000;
 }
 
 *{
@@ -133,6 +159,10 @@ ul li:hover ::after{
 	width: 50%;
 	height: auto;
 	padding-top: 30px;
+}
+
+#profile{
+	display: none;
 }
 
 h1{
