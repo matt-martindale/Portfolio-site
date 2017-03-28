@@ -65,14 +65,14 @@ body{
 
 #text{
 	float: right;
-	margin-right: 15%;
+	margin-right: 11%;
 	max-width: 100%;
 }
 
 #title{
 	text-align: center;
 	font-family: manifold;
-	font-size: 4em;
+	font-size: 3.5em;
 	background: -webkit-linear-gradient(30deg, #f51919, #ff6d00);
 
   	-webkit-background-clip: text;
@@ -85,7 +85,7 @@ body{
 
 #motto{
 	text-align: right;
-	font-family: lobster;
+	font-family: "Lobster Two", cursive;
 	font-size: 2em;
 }
 
@@ -213,6 +213,3 @@ ul li:hover ::after{
 }
 
 }
-
-
-
