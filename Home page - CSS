@@ -138,6 +138,10 @@ ul li:hover ::after{
 	display: inline-block;
 }
 
+#profile{
+	display: none;
+}
+
 ul li {
 	display: inline-block;
 }
@@ -206,10 +210,6 @@ ul li a:active{
 
 ul li:hover ::after{
 	content: none;
-}
-
-#container{
-	height: 300px;
 }
 
 }
