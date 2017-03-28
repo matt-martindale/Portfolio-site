@@ -5,6 +5,7 @@
 
 body{
 	background-color: #fff;
+	background: url('../Images/monstro_banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -30,20 +31,13 @@ body{
 	padding-top: 40px;
 }
 
-#head_img{
-	max-width: 100%;
-	height: auto;
-	display: block;
-	margin: auto;
-	padding-top: 40px;
-}
 
 h3{
-	position: relative;
-	left: 100px;
+	position: absolute;
+	right: 100px;
+	bottom: 100px;
 	width: 60%;
 	margin: auto;
-	margin-top: 80px;
 	font-family: cabin;
 	text-align: center;
 	font-size: 1.2em;
@@ -55,8 +49,10 @@ span{
 }
 
 h4{
+	position: absolute;
+	right: 100px;
+	bottom: 50px;
 	text-align: right;
-	margin-top: 100px; 
 	margin-right: 20%;
 }
 
@@ -152,6 +148,10 @@ ul li:hover ::after{
 	width: 50%;
 	height: auto;
 	padding-top: 30px;
+}
+
+#profile{
+	display: none;
 }
 
 h1{
