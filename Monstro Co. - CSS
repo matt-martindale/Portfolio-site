@@ -34,18 +34,15 @@ body{
 
 h3{
 	position: absolute;
-	right: 100px;
-	bottom: 100px;
+	left: 250px;
+	top: 200px;
 	width: 60%;
+	color: white;
 	margin: auto;
-	font-family: cabin;
+	font-family: "Poppins";
 	text-align: center;
-	font-size: 1.2em;
-	line-height: 1.5;
-}
-
-span{
-	font-size: 1.3em;
+	font-size: 2em;
+	line-height: 1;
 }
 
 h4{
@@ -235,4 +232,3 @@ ul li:hover ::after{
 }
 
 }
-
