@@ -56,13 +56,13 @@ h3{
 	margin-right: 20%;
 	border: 2px solid white;
 	border-radius: 10px;
-	padding: 10px 45px 15px 15px;
+	padding: 5px 45px 10px 15px;
 	text-decoration: none;
 }
 
 i{
 	position: inherit;
-	top: 8px;
+	top: 3px;
 }
 
 a.gotoproducts:link{
@@ -74,7 +74,7 @@ a.gotoproducts:visited{
 }
 
 a.gotoproducts:hover{
-	background: white;
+	background: rgba(255,255,255,0.8);
 	color: #B9994E;
 }
 
