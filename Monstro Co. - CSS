@@ -47,34 +47,35 @@ h3{
 	line-height: 1;
 }
 
-.outline{
+.gotoproducts{
+	font-size: 2em;
+	font-family: manifold;
 	position: absolute;
-	margin-right: 25%;
-	right: 0px;
 	bottom: 100px;
-	width: 250px;
-	height: 50px;
+	right: 0px;
+	margin-right: 20%;
 	border: 2px solid white;
-	border-radius: 15px;
-}
-
-.products-link{
+	border-radius: 10px;
+	padding: 10px 45px 15px 15px;
 	text-decoration: none;
 }
 
-h4{
-	position: relative;
-	bottom: 50px;
-	color: white;
-	font-size: 2em;
-	font-family: manifold;
-	text-align: right;
+i{
+	position: inherit;
+	top: 8px;
 }
 
-i{
-	font-size: 2em;
-	position: relative;
-	top: 15px;
+a.gotoproducts:link{
+	color: white;
+}
+
+a.gotoproducts:visited{
+	color: white;
+}
+
+a.gotoproducts:hover{
+	background: white;
+	color: #B9994E;
 }
 
 #sidenav{
