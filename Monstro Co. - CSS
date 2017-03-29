@@ -5,7 +5,9 @@
 
 body{
 	background-color: #fff;
-	background: url('../Images/monstro_banner.jpg');
+	background: url
+
+('../Images/monstro_banner1.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: right;
@@ -39,21 +41,41 @@ h3{
 	width: 60%;
 	color: white;
 	margin: auto;
-	font-family: "Poppins";
+	font-family: manifold;
 	text-align: center;
 	font-size: 2em;
 	line-height: 1;
 }
 
-h4{
+.outline{
 	position: absolute;
-	right: 100px;
-	bottom: 50px;
-	text-align: right;
-	margin-right: 20%;
+	margin-right: 25%;
+	right: 0px;
+	bottom: 100px;
+	width: 250px;
+	height: 50px;
+	border: 2px solid white;
+	border-radius: 15px;
 }
 
+.products-link{
+	text-decoration: none;
+}
 
+h4{
+	position: relative;
+	bottom: 50px;
+	color: white;
+	font-size: 2em;
+	font-family: manifold;
+	text-align: right;
+}
+
+i{
+	font-size: 2em;
+	position: relative;
+	top: 15px;
+}
 
 #sidenav{
 	position: fixed;
@@ -186,7 +208,9 @@ ul li {
 	position: absolute;
 	background: #fff;
 	min-width: 150px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba
+
+(0,0,0,0.2);
 	z-index: 1;
 }
 
