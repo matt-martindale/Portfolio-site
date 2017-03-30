@@ -15,7 +15,7 @@ body{
 #side{
 	float: left;
 	width: 370px;
-	height: 5000px;
+	height: 2500px;
 }
 
 
@@ -141,7 +141,7 @@ p{
 	margin: 100px 2% 0px;
 	padding: 0 6px;
 	float: left;
-	width: 18.3%;
+	width: 20%;
 }
 
 
@@ -250,4 +250,5 @@ ul li:hover ::after{
 }
 
 }
+
 
