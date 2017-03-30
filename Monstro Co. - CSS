@@ -34,24 +34,24 @@ body{
 
 h3{
 	position: absolute;
-	left: 250px;
-	top: 200px;
-	width: 60%;
+	left: 30%;
+	top: 250px;
+	width: 450px;
 	color: white;
 	margin: auto;
-	font-family: manifold;
-	text-align: center;
+	font-family: Raleway;
+	text-align: left;
 	font-size: 2em;
-	line-height: 1;
+	line-height: 1.2;
 }
 
 .gotoproducts{
 	font-size: 2em;
-	font-family: manifold;
+	font-family: Raleway;
 	position: absolute;
-	bottom: 100px;
-	right: 0px;
-	margin-right: 20%;
+	bottom: 150px;
+	left: 0px;
+	margin-left: 30%;
 	border: 2px solid white;
 	border-radius: 10px;
 	padding: 5px 45px 10px 15px;
