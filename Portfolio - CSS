@@ -98,11 +98,15 @@ ul li:hover ::after{
 
 
 .gallery img{
-	width:100%;
+	max-width:100%;
 	height: auto;
+	display: block;
+	margin: auto;
 }
 
 .description{
+	width: 100%;
+	margin: auto;
 	font-family: "alfa slab one";
 	padding: 10px;
 	text-align: center;
@@ -134,10 +138,10 @@ p{
 }
 
 .responsive{
-	margin: 100px 3% 30px;
+	margin: 100px 2% 0px;
 	padding: 0 6px;
 	float: left;
-	width: 28.3%;
+	width: 18.3%;
 }
 
 
@@ -246,3 +250,4 @@ ul li:hover ::after{
 }
 
 }
+
