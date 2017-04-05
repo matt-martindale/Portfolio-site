@@ -2,7 +2,8 @@
 <head>
 <title>Monstro Co.</title>
 <link rel="stylesheet" href="contact.css">
-<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 
@@ -24,7 +25,9 @@
 	<li  id="active" class="topmenu" id="contact">
 	<a href="../Contact/contact.html">Contact </a></li>
 	<a href="../Contact/contact.html">
-<img id="profile" src="../Images/Matt Martindale.png" alt="Matt Martindale" width="200px" height="200px">
+<img id="profile" src="../Images/Matt Martindale.png" alt="Matt Martindale" width="200px" 
+
+height="200px">
 </a>
   </ul>
 </div>
@@ -33,14 +36,22 @@
 <div id="side"></div>
 
 <!-- Main Page ================================= -->
-<a href="../Images/MattMartindaleResume.pdf" target="_blank">View Resume</a>
 
-<form action="contact.php" method="POST"
-<p>Name</p><input type="text" name="name">
-<p>Email</p><input type="text" name="email">
-<p>Message</p><textarea name="message" rows="6" cols="30"></textarea></br>
-<input type="submit" value="Send"><input type="reset" value="Reset">
+
+<form action="contact.php" method="POST">
+	<fieldset><legend>Please, tell me about the project...</legend>
+		<p>Name:</p><input type="text" name="name" placeholder="Your Name...">
+		<p>Email:</p><input type="email" name="email" placeholder="Your email@yahoo.com" 
+
+required>
+		<p>Message:</p><textarea name="message" rows="6" 			
+
+cols="30"></textarea></br>
+		<input type="submit" value="Send Message"><br>
+		<input type="reset" value="Reset">
+	</fieldset>
 </form>
 
+<a href="../Images/MattMartindaleResume.pdf" target="_blank">View Resume</a>
 </body>
 </html>
