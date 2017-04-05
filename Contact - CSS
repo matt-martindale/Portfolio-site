@@ -12,6 +12,70 @@ body{
 	padding: 0;
 }
 
+form{
+	padding-top: 50px;
+	font-family: raleway;
+}
+
+legend{
+	font-size: 2em;
+}
+
+fieldset{
+	width: 40%;
+	background-color: #eee;
+	border-radius: 15px;
+}
+
+p{
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+input{
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: raleway;
+}
+
+input[type=submit]{
+	display: block;
+	width: 40%;
+	background-color: #01b735;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px auto 0;
+	padding: 10px 0;
+	border-radius: 10px;
+	font-size: 1.5em;
+}
+
+input[type=submit]:hover{
+	background-color: #08d141;
+	color: black;
+}
+
+input[type=reset]{
+	display: block;
+	margin: auto;
+	width: 30%;
+	cursor: pointer;
+}
+
+input[type=reset]:hover{
+	background-color: #ccc;
+}
+
+textarea{
+	border-radius: 5px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-family: raleway;
+}
+
 #side{
 	float: left;
 	width: 370px;
@@ -93,55 +157,6 @@ ul li:hover ::after{
 
 #active a{
 	color: #B9994E;
-}
-
-
-
-.gallery img{
-	max-width:100%;
-	height: auto;
-	display: block;
-	margin: auto;
-}
-
-.description{
-	width: 100%;
-	margin: auto;
-	font-family: "alfa slab one";
-	padding: 10px;
-	text-align: center;
-}
-
-p{
-	font-family: "poiret one";
-	font-size: 2em;
-	font-weight: bolde;
-	margin: 0;
-	padding: 0 0 10px 0;
-}
-
-.description a:link{
-	text-decoration: none;
-	color: #000;
-}
-
-.description a:hover{
-	color: #999;
-}
-
-.description a:visited{
-	color: #000;
-}
-
-*{
-	box-sizing: border-box;
-}
-
-.responsive{
-	margin: 100px 2% 0px;
-	padding: 0 6px;
-	float: left;
-	width: 18.3%;
 }
 
 
@@ -250,3 +265,4 @@ ul li:hover ::after{
 }
 
 }
+
