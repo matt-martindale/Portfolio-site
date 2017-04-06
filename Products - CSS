@@ -134,7 +134,7 @@ ul li a{
 }
 
 .topmenu{
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 ul li a:link{
@@ -155,7 +155,7 @@ ul li a:active{
 }
 
 ul li:hover ::after{
-	content: url(../Images/hover.jpg);
+	content: url(../Images/hover.png);
 }
 
 #active a{
@@ -181,6 +181,10 @@ ul li:hover ::after{
 	width: 50%;
 	height: auto;
 	padding-top: 30px;
+}
+
+#profile{
+	display:none;
 }
 
 h1{
@@ -238,7 +242,7 @@ ul li {
 
 #contact:hover{
 	text-shadow: 1px 1px 3px #bbb;
-	font-size: 2em;
+	font-size: 1.6em;
 }
 
 ul li a{
@@ -264,4 +268,3 @@ ul li:hover ::after{
 }
 
 }
-
