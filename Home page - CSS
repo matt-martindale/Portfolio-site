@@ -43,6 +43,10 @@ body{
 	color: #f51919;
 }
 
+#contact a:active{
+	color: #ff6d00;
+}
+
 #profile{
 	margin: 100px 0 0 25px;
 }
@@ -102,7 +106,7 @@ ul li a{
 }
 
 .topmenu{
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 ul li a:link{
@@ -200,7 +204,7 @@ ul li {
 
 #contact:hover{
 	text-shadow: 1px 1px 3px #bbb;
-	font-size: 2em;
+	font-size: 1.6em;
 }
 
 ul li a{
