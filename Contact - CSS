@@ -74,6 +74,7 @@ textarea{
 	padding: 10px;
 	box-sizing: border-box;
 	font-family: raleway;
+	resize: none;
 }
 
 #side{
@@ -93,11 +94,11 @@ textarea{
 }
 
 #contact a{
-	color: #B9994E;
+	color: #f51919;
 }
 
 #contact a:hover{
-	color: #FDE07A;
+	color: #f51919;
 }
 
 #contact a:active{
@@ -131,7 +132,7 @@ ul li a{
 }
 
 .topmenu{
-	font-size: 1.8em;
+	font-size: 1.5em;
 }
 
 ul li a:link{
@@ -143,20 +144,20 @@ ul li a:visited{
 }
 
 ul li a:hover{
-	color: #B9994E;
+	color: #f51919;
 	font-size: 1.1em;
 }
 
 ul li a:active{
-	color: #FDE07A;
+	color: #ff6d00;
 }
 
 ul li:hover ::after{
-	content: url(../Images/hover.jpg);
+	content: url(../Images/hover.png);
 }
 
 #active a{
-	color: #B9994E;
+	color: #f51919;
 }
 
 
@@ -239,7 +240,7 @@ ul li {
 
 #contact:hover{
 	text-shadow: 1px 1px 3px #bbb;
-	font-size: 2em;
+	font-size: 1.6em;
 }
 
 ul li a{
@@ -248,7 +249,7 @@ ul li a{
 }
 
 ul li a:hover{
-	color: #B9994E;
+	color: #f51919;
 	font-size: 1em;
 }
 
@@ -257,7 +258,7 @@ ul li a:hover{
 }
 
 ul li a:active{
-	color: #FDE07A;
+	color: #ff6d00;
 }
 
 ul li:hover ::after{
@@ -265,4 +266,3 @@ ul li:hover ::after{
 }
 
 }
-
